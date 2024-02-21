@@ -15,7 +15,7 @@ module ToWords
       century = UNDER_HUNDRED[hundred]
       if remaining != 0
         return century + " Hundred " + UNDER_HUNDRED[remaining] if counter != 0
-        return century + " Hundred and " + UNDER_HUNDRED[remaining]
+        #return century + " Hundred and " + UNDER_HUNDRED[remaining]
       end
       return century + " Hundred " if remaining == 0
     end
