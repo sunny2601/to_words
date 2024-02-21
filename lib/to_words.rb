@@ -17,7 +17,7 @@ module ToWords
     result = []
     while num != 0
       if counter == 0
-        num, remaining = num.divmod(100)
+        num, remaining = num.divmod(1000)
         temp_result = result_below_one_thousand(remaining, counter)
         result << temp_result + " " + DIVISIONS[counter] + " " if temp_result
       else
