@@ -12,7 +12,7 @@ module ToWords
   def to_words
     num = numerical?(self)
     num, sign = check_sign(num)
-    return (sign + UNDER_HUNDRED[num]) if num <= 100
+    return (sign + UNDER_HUNDRED[num]) if num <= 1000
     counter = 0
     result = []
     while num != 0
