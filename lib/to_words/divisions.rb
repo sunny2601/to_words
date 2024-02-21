@@ -4,8 +4,8 @@ module ToWords
     DIVISIONS = [
       "",
       "Thousand",
-      "Million",
-      "Billion",
+      "Lakhs",
+      "Crore",
       "Trillion",
       "Quadrillion",
       "Quintrillion"
