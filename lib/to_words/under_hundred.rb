@@ -101,8 +101,7 @@ module ToWords
       96 => "ninety six",
       97 => "ninety seven",
       98 => "ninety eight",
-      99 => "ninety nine",
-      100 => "one hundred"
+      99 => "ninety nine"
     }.freeze
   end
 end
