@@ -6,9 +6,9 @@ module ToWords
       "Thousand",
       "Lakhs",
       "Crore",
-      "Trillion",
-      "Quadrillion",
-      "Quintrillion"
+      "Arab",
+      "Kharab",
+      "Nil"
     ].freeze
   end
 end
