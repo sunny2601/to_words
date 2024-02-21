@@ -13,10 +13,10 @@ module ToWords
 
     def higher_than_hundred(hundred, remaining, counter)
       century = UNDER_HUNDRED[hundred]
-      if remaining != 0
-        return century + " Hundred " + UNDER_HUNDRED[remaining] if counter != 0
+      #if remaining != 0
+       # return century + " Hundred " + UNDER_HUNDRED[remaining] if counter != 0
         #return century + " Hundred and " + UNDER_HUNDRED[remaining]
-      end
+      #end
       return century + " Hundred " if remaining == 0
     end
 
