@@ -27,7 +27,7 @@ module ToWords
       end
       counter += 1
     end
-    sign + result.reverse.join(", ").rstrip
+    sign + result.reverse.join(" ").rstrip
   end
 end
 
